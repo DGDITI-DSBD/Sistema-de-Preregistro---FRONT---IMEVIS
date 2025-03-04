@@ -1,0 +1,7 @@
+export * from './VaidarPage'
+export * from './MujerForm'
+export * from './DatosPersonales'
+export * from './DatosDomic'
+export * from './FormPreguntas'
+export * from './Concentrado_mujeres'
+export * from './FumPdf'
