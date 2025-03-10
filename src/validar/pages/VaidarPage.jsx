@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Header } from '../../router/components/Header';
 import Swal from 'sweetalert2'
 import { Button, Dialog, DialogBody, DialogFooter, DialogHeader, Typography } from '@material-tailwind/react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { cleaningEditData, getEditData, setFolio, storeData, setId, setCURP } from '../../store';
 import { useDispatch, useSelector } from 'react-redux';
 import { set, useForm } from 'react-hook-form';
@@ -15,6 +15,7 @@ import Mujeres from '../../images/mujeres-banner.jpg'
 export const VaidarPage = () => {
 
   const navigate = useNavigate();
+  const location = useLocation();
   const dispatch = useDispatch();
   const handleOpen = () => setOpen();
   const handleOpen1 = () => setOpen1();
