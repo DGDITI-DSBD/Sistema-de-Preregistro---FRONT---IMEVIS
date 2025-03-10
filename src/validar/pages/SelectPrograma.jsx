@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import Swal from 'sweetalert2';
-import vivienda_bienestar from '../../images/vivienda_bienestar.png';
-import primer_hogar from '../../images/primer_hogar_programa.png';
+import vivienda_bienestar from '../../images/vivienda_bienestar.JPEG';
+import primer_hogar from '../../images/primer_hogar_programa.JPEG';
 
 
 export const SelectPrograma = () => {
